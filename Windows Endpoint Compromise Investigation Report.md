@@ -22,10 +22,12 @@ That is all process in my system
 
 I started by executing `challenge.exe` from an **Administrator Command Prompt** as instructed.
 
-📸 *Insert Screenshot Here*
+
+<img width="1339" height="911" alt="Screenshot 2025-12-10 011520" src="https://github.com/user-attachments/assets/daac80b7-d735-416d-8ba5-000c51ce4577" />
+
+
 (*This is the screenshot showing the CMD window running challenge.exe and displaying: “The system has been successfully compromised.”*)
 
-<img width="975" height="664" alt="image" src="https://github.com/user-attachments/assets/b9e66019-60e9-4b7f-b0f7-9f9a1da67590" />
 
 
 **Answer:** done
@@ -40,7 +42,13 @@ Using **Process Explorer** → *challenge.exe → TCP/IP*, I identified the list
 
 (*This screenshot shows TCP 0.0.0.0:50050 → LISTENING*)
 
-<img width="975" height="165" alt="image" src="https://github.com/user-attachments/assets/f0390daf-90b4-4871-9794-51fc4bee805d" />
+<img width="1059" height="773" alt="Screenshot 2025-12-10 002459" src="https://github.com/user-attachments/assets/a4fa7b2f-7fc1-444b-a21b-53adb3f1831f" />
+
+<img width="1122" height="819" alt="Screenshot 2025-12-10 002559" src="https://github.com/user-attachments/assets/79571ce1-8dd6-46d6-8ada-b3976e518fbb" />
+
+<img width="1121" height="806" alt="Screenshot 2025-12-10 002758" src="https://github.com/user-attachments/assets/12337d1f-1cae-4330-87c9-69867d10a1de" />
+
+
 
 **Answer:** `50050`
 
