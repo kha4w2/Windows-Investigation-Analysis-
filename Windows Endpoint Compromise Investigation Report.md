@@ -64,6 +64,7 @@ In Process Explorer, I located the running instance of **challenge.exe**.
 
 <img width="1166" height="793" alt="Screenshot 2025-12-10 003201" src="https://github.com/user-attachments/assets/c1dcca35-970f-4857-b4b0-16c957f5bc18" />
 
+<img width="1706" height="283" alt="Screenshot 2025-12-10 011814" src="https://github.com/user-attachments/assets/b70f222e-58e5-4441-86af-7e59415583b9" />
 
 
 **Answer:** `7328`
@@ -83,6 +84,8 @@ The DLLs beginning with the letter **M** were:
 (*DLLs tab screenshot*)
 
 <img width="975" height="180" alt="image" src="https://github.com/user-attachments/assets/8cb9d5da-f8b6-473c-9a9b-1ab6a98396bc" />
+
+<img width="1711" height="316" alt="Screenshot 2025-12-10 011854" src="https://github.com/user-attachments/assets/c8b1d7a6-1e23-4709-8cd1-7977e3cae15d" />
 
 **Answer:** `msvcrt.dll`, `mswsock.dll`
 
@@ -114,6 +117,7 @@ I found a suspicious attacker-created share:
 
 **Share Name:** `xkalibur`
 
+<img width="1646" height="263" alt="Screenshot 2025-12-10 012015" src="https://github.com/user-attachments/assets/72e0df2a-6df6-47f6-999c-5175c6ca51b3" />
 
 **Answer:** `xkalibur`
 
@@ -129,6 +133,7 @@ C:\Users\Khaled\AppData\Local\Temp\46d5b8556d0d3e30ec1
 
 <img width="929" height="577" alt="Screenshot 2025-12-10 030307" src="https://github.com/user-attachments/assets/981921aa-f29d-421b-90af-20aaa1e1e85a" />
 
+<img width="1679" height="330" alt="Screenshot 2025-12-10 012124" src="https://github.com/user-attachments/assets/c303e14b-0c0e-40c8-bc57-9b00d95e1f4f" />
 
 
 **Answer:**
@@ -151,6 +156,7 @@ Registry path:
 ```
 HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 ```
+<img width="1319" height="223" alt="Screenshot 2025-12-10 014128" src="https://github.com/user-attachments/assets/369191fb-e4cc-414a-9b60-16a7a05188ce" />
 
 
 **Answer:**
@@ -164,6 +170,7 @@ The malicious value was identified as:
 
 <img width="920" height="481" alt="Screenshot 2025-12-10 030656" src="https://github.com/user-attachments/assets/a05282ab-6c9d-45d8-a0ea-bc96e9a46bec" />
 
+<img width="1341" height="237" alt="Screenshot 2025-12-10 014056" src="https://github.com/user-attachments/assets/30ec5a35-b276-4085-a3da-ea22542a033a" />
 
 **Answer:** `CleanUpController`
 
@@ -179,6 +186,7 @@ C:\Users\tcm\Downloads\wininit.exe
 
 <img width="885" height="597" alt="Screenshot 2025-12-10 030854" src="https://github.com/user-attachments/assets/3fdc25e6-62b9-419f-a671-5f20b585503e" />
 
+<img width="1743" height="349" alt="Screenshot 2025-12-10 014252" src="https://github.com/user-attachments/assets/cc7e9434-3f08-48d4-bd0f-590213a07f69" />
 
 
 **Answer:** `C:\Users\tcm\Downloads\wininit.exe`
@@ -190,6 +198,8 @@ C:\Users\tcm\Downloads\wininit.exe
 The backdoor service is listed under **Services** in Autoruns:
 
 <img width="927" height="543" alt="Screenshot 2025-12-10 031123" src="https://github.com/user-attachments/assets/ba77d536-d77e-4ffe-b0fc-f5fa76954738" />
+
+<img width="1654" height="314" alt="Screenshot 2025-12-10 014537" src="https://github.com/user-attachments/assets/dfdac59f-a3af-440d-ab8e-c67169b2c67b" />
 
 
 **Answer:** `WindowsActiveService`
