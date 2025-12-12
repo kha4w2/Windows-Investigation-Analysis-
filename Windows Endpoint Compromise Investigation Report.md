@@ -10,6 +10,9 @@ First, I installed Sysinternals
 
 <img width="1059" height="791" alt="Screenshot 2025-12-10 002220" src="https://github.com/user-attachments/assets/bee02f2f-b9fd-4908-b9b8-e1c40a0f706d" />
 
+<img width="1044" height="735" alt="Screenshot 2025-12-10 002258" src="https://github.com/user-attachments/assets/cc6d5cb9-2483-4332-972c-aeb369110900" />
+
+<img width="1063" height="815" alt="Screenshot 2025-12-10 002318" src="https://github.com/user-attachments/assets/39726f0c-45c8-48ea-bd47-ec1c9a89c1d2" />
 
 
 That is all process in my system 
