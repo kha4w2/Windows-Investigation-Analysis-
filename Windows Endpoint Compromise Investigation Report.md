@@ -283,7 +283,6 @@ C:\Users\tcm\Downloads\beacOn.exe
 The scheduled task `/ayttpnzc` is set to run at:
 
 
-<img width="975" height="159" alt="image" src="https://github.com/user-attachments/assets/2576a0a0-f041-44d3-9115-7fe2ca369444" />
 
 
 **Answer:** `3:30:00 AM`
