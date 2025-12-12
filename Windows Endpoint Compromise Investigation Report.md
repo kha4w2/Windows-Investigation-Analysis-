@@ -8,11 +8,11 @@ In this challenge, I performed a live incident response investigation on a compr
 
 First, I installed Sysinternals 
 
-<img width="975" height="729" alt="image" src="https://github.com/user-attachments/assets/1504e2e6-b079-4242-9618-63410a1e3f7c" />
+<img width="1059" height="791" alt="Screenshot 2025-12-10 002220" src="https://github.com/user-
+attachments/assets/0d602b8b-fe2c-4d39-84f0-5e2d71c65ece" />
 
-<img width="975" height="687" alt="image" src="https://github.com/user-attachments/assets/11777f04-8fbe-458a-9032-07e6d4d116d1" />
 
-<img width="975" height="748" alt="image" src="https://github.com/user-attachments/assets/d3a02e51-da07-4a10-b5e2-ef3b0e889ec6" />
+
 That is all process in my system 
 ---
 
