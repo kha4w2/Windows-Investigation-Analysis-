@@ -1,7 +1,5 @@
 
 
----
-
 # ✅ **Task 1 — Brute Force Investigation (ELK Stack)**
 
 **Goal:** Identify *when* the brute-force attack happened and extract the *Account Name* and *Workstation Name* involved.
