@@ -8,8 +8,7 @@ In this challenge, I performed a live incident response investigation on a compr
 
 First, I installed Sysinternals 
 
-<img width="1059" height="791" alt="Screenshot 2025-12-10 002220" src="https://github.com/user-
-attachments/assets/0d602b8b-fe2c-4d39-84f0-5e2d71c65ece" />
+<img width="1059" height="791" alt="Screenshot 2025-12-10 002220" src="https://github.com/user-attachments/assets/bee02f2f-b9fd-4908-b9b8-e1c40a0f706d" />
 
 
 
