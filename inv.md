@@ -281,6 +281,7 @@ Reviewed the decoded commands and confirmed they only execute simple echo and Wr
 
 
 
-Final Assessment
+#Final Assessment
 
 Confirmed that only two encoded commands were executed and both are legitimate and non-malicious, indicating no suspicious PowerShell activity.
+---
