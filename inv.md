@@ -262,9 +262,15 @@ Step 4: Decode the Encoded Commands
 
 Decoded both Base64 strings using an external decoding tool to reveal the actual executed PowerShell commands.
 
+
 <img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/5ee51e34-074e-45df-ba92-ba7b4c64e985" />
 
-<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/f315c462-261d-4e10-a195-e95344275c37" />
+
+
+
+![Uploading Screenshot 2025-12-13 014720.png…]()
+
+
 
 
 Step 5: Analyze Decoded Output
