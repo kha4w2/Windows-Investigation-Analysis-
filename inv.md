@@ -220,4 +220,57 @@ agent.name: "WIN-LJDLTDHLBH0" AND process.name: "powershell.exe" AND event.code:
 
 ---
 
+Task4: Identify and Decode Encoded PowerShell Commands
+Step 1: Hunt for Encoded PowerShell Execution and Narrow the Scope Using Elastic Query
 
+Searched for PowerShell process creation events containing encoded commands to identify potential obfuscated execution.
+
+
+<img width="1918" height="905" alt="image" src="https://github.com/user-attachments/assets/e7d852b9-5243-49fe-b4c6-6d3133855071" />
+
+
+Filtered results using the following query to isolate relevant PowerShell executions:
+
+```
+agent.name: WIN-LJDLTDHLBH0 AND process.name: powershell.exe AND event.code: 1 AND process.command_line:*EncodedCommand*
+```
+
+<img width="1911" height="912" alt="image" src="https://github.com/user-attachments/assets/e77e3903-6177-494e-99f8-9f7566782991" />
+
+
+Step 2: Review Process Creation Events
+
+Identified two PowerShell process creation logs where the -EncodedCommand flag was used.
+
+<img width="1907" height="922" alt="image" src="https://github.com/user-attachments/assets/3922b8c3-88a6-4762-b93b-b332099d6121" />
+
+<img width="1910" height="927" alt="image" src="https://github.com/user-attachments/assets/1a8f893d-f0f8-46d4-a017-746aafd00849" />
+
+
+Step 3: Extract Encoded Commands
+
+Collected the Base64-encoded command strings from the process.command_line field for further analysis.
+
+
+<img width="1915" height="902" alt="image" src="https://github.com/user-attachments/assets/b9581a0d-f096-4109-91c5-5f74bfc4fb3b" />
+
+
+<img width="1907" height="917" alt="image" src="https://github.com/user-attachments/assets/9fcc6fd5-6709-4fee-9046-eee071ea9665" />
+
+
+Step 4: Decode the Encoded Commands
+
+Decoded both Base64 strings using an external decoding tool to reveal the actual executed PowerShell commands.
+
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/5ee51e34-074e-45df-ba92-ba7b4c64e985" />
+
+<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/f315c462-261d-4e10-a195-e95344275c37" />
+
+
+Step 5: Analyze Decoded Output
+
+Reviewed the decoded commands and confirmed they only execute simple echo and Write-Output statements without any malicious behavior.
+
+Final Assessment
+
+Confirmed that only two encoded commands were executed and both are legitimate and non-malicious, indicating no suspicious PowerShell activity.
