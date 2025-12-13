@@ -268,7 +268,7 @@ Decoded both Base64 strings using an external decoding tool to reveal the actual
 
 
 
-![Uploading Screenshot 2025-12-13 014720.png…]()
+<img width="1917" height="966" alt="Screenshot 2025-12-13 014720" src="https://github.com/user-attachments/assets/06af2dee-452b-4e64-b8f3-9a3e56589524" />
 
 
 
@@ -276,6 +276,10 @@ Decoded both Base64 strings using an external decoding tool to reveal the actual
 Step 5: Analyze Decoded Output
 
 Reviewed the decoded commands and confirmed they only execute simple echo and Write-Output statements without any malicious behavior.
+
+
+
+
 
 Final Assessment
 
